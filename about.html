@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+     <meta name="description" content="Shiriez is an trained front-end developer from South Africa">
+    <title>About Shiriez</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -27,6 +28,24 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+     <div class="container">
+      <nav class="d-flex justify-content-between">
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Shiriez"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Shiriez'z Works"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Shiriez"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-md-6">
@@ -39,7 +58,7 @@
             everything is well explained, homework and deadlines are good for
             keep focus
           </p>
-          <a href="" class="btn btn-branding">View my projects</a>
+          <a href="/work.html" class="btn btn-branding">View my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -47,5 +66,38 @@
         </div>
       </div>
     </div>
+         <footer class="container">
+        <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+          <div>
+          <h4>
+            Work Inquiry
+          </h4>
+          <p class="text-muted">
+            Let's work together
+          </p>
+          </div>
+          <div>
+          <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Shiriez">
+            Contact me
+          </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-4">
+        <a href="mailto:shiriezhendriks1@gmail.com" class="email-link" title="Email Shiriez">
+          shiriezhendriks1@gmail.com 
+        </a>
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a href="https://github.com/ShiriezH" target="_blank" title="GitHub Profile">
+        <i class="fa-brands fa-github"></i>
+        </a>
+        </div>
+        <p class="text-center mt-4 mb-4">
+          This project was coded by Shiriez, and it is 
+          <a href="https://github.com/ShiriezH/Portfolio" target="_blank">
+          open-sourced
+          </a>
+        </p>
+      </footer>
   </body>
 </html>
