@@ -238,9 +238,8 @@ footer .social-links a:hover {
   }
 
   .project-desciption-1 {
-    padding-left: 0;
+    padding: 0;
     text-align: center;
-    margin-top: 40px;
   }
 
   footer .social-links a {
